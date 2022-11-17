@@ -1,2 +1,68 @@
 /* PHASE 1: Header */
+body{
+    font-family: 'Sono', sans-serif;
+    font-size: 16px;
+}
+header{
+    z-index: 1;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    height: 45px;
+    position: relative;
+}
+nav h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+nav h1 a:hover {
+    color: rgb(76, 161, 236);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li a {
+    margin: 20px;
+    display: block;
+   
+}
+
+nav ul li a:hover {
+    color: rgb(76, 161, 236);
+}
+
+#notification_num{
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+}
+
+ul .header-notifications{
+    width: 200px;
+    position: absolute;
+    display: none;
+    background-color: aliceblue;
+    white-space: inherit;
+    
+}
+
+li:hover > .header-notifications{
+    display: block;
+
+}
+
+
 
