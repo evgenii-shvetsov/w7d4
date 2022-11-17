@@ -8,6 +8,8 @@ span, article, footer, time, small {
     box-sizing: inherit;
     text-decoration: none;
     margin: 0;
+    /* padding: 0; */
+    /* box-sizing: border-box; */
     color: black;
     cursor: pointer;
 }
